@@ -8,12 +8,17 @@ export default class Home extends Component {
         super(props);
         this.state = {
         }
-      }
-    
+    }
+
     render() {
         return (
             <div className="home">
-               Home
+                <div><img src={require("../assets/logo.svg")} alt="" /></div>
+                <div>
+                    <a href={process.env.REACT_APP_LOGIN}>
+                        <button>LOGIN</button>
+                    </a>
+                </div>
             </div>
         );
     }
