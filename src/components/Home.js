@@ -13,7 +13,8 @@ export default class Home extends Component {
     render() {
         return (
             <div className="home">
-                <div><img src={require("../assets/logo.svg")} alt="" /></div>
+                {/* <div><img src={require("../assets/logo.svg")} alt="" /></div> */}
+                <div><img src="../assets/logo.svg" alt=""/></div>
                 <div>
                     <a href={process.env.REACT_APP_LOGIN}>
                         <button>LOGIN</button>

@@ -8,7 +8,7 @@ import Cart from './components/Cart';
 
 export default (
     <Switch>
-        
+        {/* 42H */}
          <Route exact path='/' component={Home} />
          <Route path='/menu' component={Menu} />
          <Route path='/details/aab' component={Aab} />

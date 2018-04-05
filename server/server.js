@@ -9,6 +9,8 @@ const express = require('express')
 
 
 const app = express();
+// 74E
+app.use(express.static('src'));
 app.use(bodyParser.json());
 app.use(session({
     secret: process.env.SESSION_SECRET,

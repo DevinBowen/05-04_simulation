@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import Nav from './Nav';
 
 
 export default class Cart extends Component {
@@ -11,7 +12,7 @@ export default class Cart extends Component {
         }
     }
 
-    componentDidMount(){
+    componentDidMount() {
         // 74D-2
         axios.put('/api/putCart').then(res => {
             console.log(res.data)
@@ -24,11 +25,8 @@ export default class Cart extends Component {
     render() {
         return (
             <div className="cart">
-                <div className="nav">
-                    <Link to='/menu' style={{ textDecoration: "none" }}><div>menu</div></Link>
-                    <Link to='/cart' style={{ textDecoration: "none" }}><div>cart</div></Link>
-                    <div>logout</div>
-                </div>
+                {/* 36H */}
+                <Nav />
                 <div>
                     <div>
 
