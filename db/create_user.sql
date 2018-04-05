@@ -1,3 +1,4 @@
+-- 66G
 insert into users
 (username, email, img, auth_id)
 values

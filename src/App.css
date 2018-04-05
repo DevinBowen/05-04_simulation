@@ -1,1 +1,24 @@
-
+.menu {
+    display: flex;
+}
+.menu_main {
+    display: flex;
+}
+.menu_main_left {
+    background: rgba(0, 128, 128, 0.445)
+}
+.menu_main_right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: rgba(0, 255, 128, 0.541)
+}
+.nav {
+    background: rgba(160, 81, 45, 0.644)
+}
+.details {
+    display: flex;
+}
+.cart {
+    display: flex;
+}

@@ -20,6 +20,7 @@ export function getUserInfo() {
     }
 }
 
+// 43E 43F
 export default function reducer(state = initialState, action) {
     switch(action.type) {
         case GET_USER_INFO + '_FULFILLED':
